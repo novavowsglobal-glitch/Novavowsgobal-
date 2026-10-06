@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVA VOWS International — Destination Wedding Planning</title>
+<style>
+:root{
+  --ink:#201b1b; --muted:#6f6662; --cream:#f7f2eb; --paper:#fffdf9;
+  --gold:#b78a54; --line:#ded5ca; --dark:#292222;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,253,249,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.nav-inner{max-width:1180px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:Georgia,serif;letter-spacing:.16em;font-size:15px}
+.nav-links{display:flex;gap:26px;font-size:13px}
+.nav-links a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:13px 20px;border:1px solid var(--ink);font-size:13px;letter-spacing:.04em}
+.btn.dark{background:var(--dark);color:#fff;border-color:var(--dark)}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:100px 24px;background:
+radial-gradient(circle at 20% 20%,#eadcca 0,transparent 28%),
+radial-gradient(circle at 80% 70%,#e8d8c5 0,transparent 30%),var(--cream)}
+.eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--gold);font-weight:700}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400}
+h1{font-size:clamp(48px,8vw,92px);line-height:.95;margin:20px auto;max-width:900px}
+.hero p{max-width:650px;margin:0 auto 30px;color:var(--muted);font-size:18px}
+.section{max-width:1180px;margin:auto;padding:90px 24px}
+.section-head{max-width:700px;margin-bottom:45px}
+h2{font-size:clamp(34px,5vw,54px);line-height:1.05;margin:12px 0}
+.lead{color:var(--muted);font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);padding:30px;min-height:250px}
+.card .num{font-family:Georgia,serif;color:var(--gold);font-size:22px}
+.card h3{font-size:25px;margin:12px 0}
+.card p{color:var(--muted);font-size:14px}
+.dark-section{background:var(--dark);color:#fff}
+.dark-section .lead{color:#cfc5bd}
+.destinations{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.destination{min-height:230px;padding:24px;display:flex;align-items:flex-end;background:linear-gradient(180deg,#d9c8b5,#8b6d59);color:#fff}
+.destination:nth-child(2){background:linear-gradient(180deg,#e2d8c8,#7f6251)}
+.destination:nth-child(3){background:linear-gradient(180deg,#d6c7b7,#6b766f)}
+.destination:nth-child(4){background:linear-gradient(180deg,#e4d4bf,#81644d)}
+.destination span{font-family:Georgia,serif;font-size:26px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.process div{border-top:1px solid var(--gold);padding-top:20px}
+.process strong{font-family:Georgia,serif;font-size:24px}
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.price-card{background:var(--paper);border:1px solid var(--line);padding:34px}
+.price-card.featured{border:2px solid var(--gold)}
+.price{font-family:Georgia,serif;font-size:35px}
+.price-card ul{padding-left:18px;color:var(--muted);font-size:14px}
+.form-wrap{display:grid;grid-template-columns:1fr 1fr;gap:55px}
+form{display:grid;gap:12px}
+input,select,textarea{width:100%;padding:14px;border:1px solid var(--line);background:#fffdf9;font:inherit}
+textarea{min-height:130px;resize:vertical}
+footer{padding:35px 24px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+@media(max-width:800px){
+ .nav-links{display:none}.grid,.pricing,.form-wrap{grid-template-columns:1fr}
+ .destinations{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}
+ .section{padding:65px 20px}
+}
+@media(max-width:500px){.destinations,.process{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+ <div class="nav-inner">
+  <a class="logo" href="#top">NOVA VOWS</a>
+  <div class="nav-links">
+   <a href="#services">Services</a><a href="#destinations">Destinations</a><a href="#process">Notre méthode</a><a href="#contact">Contact</a>
+  </div>
+  <a class="btn" href="#contact">Parler de votre mariage</a>
+ </div>
+</nav>
+
+<main id="top">
+<section class="hero">
+ <div>
+  <div class="eyebrow">Destination Wedding Planning · Worldwide</div>
+  <h1>Votre histoire.<br>Notre savoir-faire.</h1>
+  <p>NOVA VOWS imagine et coordonne des mariages élégants, personnels et sans stress, au Cameroun et à l'international.</p>
+  <a class="btn dark" href="#contact">Commencer votre projet</a>
+ </div>
+</section>
+
+<section class="section" id="services">
+ <div class="section-head">
+  <div class="eyebrow">Nos expertises</div>
+  <h2>De la première idée au dernier invité.</h2>
+  <p class="lead">Un interlocuteur unique pour transformer une vision en expérience parfaitement orchestrée.</p>
+ </div>
+ <div class="grid">
+  <article class="card"><div class="num">01</div><h3>Full Wedding Planning</h3><p>Conception, budget, recherche de lieu, prestataires, planning, logistique et coordination complète du mariage.</p></article>
+  <article class="card"><div class="num">02</div><h3>Destination Weddings</h3><p>Organisation de célébrations à distance avec coordination locale, hébergement, transport et expérience des invités.</p></article>
+  <article class="card"><div class="num">03</div><h3>Wedding Design</h3><p>Direction esthétique : ambiance, palette, décoration, fleurs, papeterie, scénographie et détails signature.</p></article>
+ </div>
+</section>
+
+<section class="dark-section" id="destinations">
+ <div class="section">
+  <div class="section-head">
+   <div class="eyebrow">Destination</div>
+   <h2>Nous venons là où votre histoire vous mène.</h2>
+   <p class="lead">Une base au Cameroun, un réseau de partenaires et une organisation pensée pour les couples qui célèbrent au-delà des frontières.</p>
+  </div>
+  <div class="destinations">
+   <div class="destination"><span>Cameroun</span></div>
+   <div class="destination"><span>France</span></div>
+   <div class="destination"><span>Maroc</span></div>
+   <div class="destination"><span>Dubai</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="process">
+ <div class="section-head">
+  <div class="eyebrow">Notre méthode</div>
+  <h2>Une expérience claire, du « oui » au « je vous le promets ».</h2>
+ </div>
+ <div class="process">
+  <div><strong>01 · Découverte</strong><p>Appel initial, vision, date, destination, invités et budget.</p></div>
+  <div><strong>02 · Conception</strong><p>Concept créatif, sélection des prestataires et feuille de route.</p></div>
+  <div><strong>03 · Production</strong><p>Contrats, échéances, logistique, coordination des équipes.</p></div>
+  <div><strong>04 · Jour J</strong><p>Notre équipe orchestre chaque détail pour que vous profitiez pleinement.</p></div>
+ </div>
+</section>
+
+<section class="section" id="offers">
+ <div class="section-head">
+  <div class="eyebrow">Formules</div>
+  <h2>Des accompagnements adaptés à votre niveau de besoin.</h2>
+  <p class="lead">Les tarifs définitifs seront établis après consultation, selon la destination, le nombre d'invités et l'ampleur du projet.</p>
+ </div>
+ <div class="pricing">
+  <article class="price-card"><div class="eyebrow">Essentiel</div><h3>Coordination</h3><div class="price">Sur devis</div><ul><li>Planning final</li><li>Coordination des prestataires</li><li>Présence le jour J</li></ul></article>
+  <article class="price-card featured"><div class="eyebrow">Signature</div><h3>Full Planning</h3><div class="price">Sur devis</div><ul><li>Organisation de A à Z</li><li>Design & scénographie</li><li>Gestion complète des prestataires</li><li>Coordination jour J</li></ul></article>
+  <article class="price-card"><div class="eyebrow">Destination</div><h3>Worldwide</h3><div class="price">Sur devis</div><ul><li>Wedding planning à distance</li><li>Logistique voyage & invités</li><li>Réseau local de partenaires</li><li>Production sur destination</li></ul></article>
+ </div>
+</section>
+
+<section class="section" id="contact">
+ <div class="form-wrap">
+  <div>
+   <div class="eyebrow">Votre projet</div>
+   <h2>Racontez-nous votre mariage.</h2>
+   <p class="lead">Indiquez-nous votre destination, votre date approximative et ce que vous imaginez. Nous vous recontacterons pour un premier échange.</p>
+   <p><strong>NOVA VOWS International</strong><br>Destination Wedding Planning<br>Cameroon · Worldwide</p>
+  </div>
+  <form onsubmit="event.preventDefault(); document.getElementById('success').hidden=false;">
+   <input required placeholder="Votre nom">
+   <input required type="email" placeholder="Votre e-mail">
+   <input placeholder="Téléphone / WhatsApp">
+   <input placeholder="Destination souhaitée">
+   <input placeholder="Date ou période">
+   <select><option>Nombre approximatif d'invités</option><option>Moins de 50</option><option>50–150</option><option>150–300</option><option>300+</option></select>
+   <textarea placeholder="Parlez-nous de votre vision..."></textarea>
+   <button class="btn dark" type="submit">Envoyer la demande</button>
+   <p id="success" hidden>Merci. Votre demande est prête à être traitée. Dans la version finale, ce formulaire sera relié à votre e-mail ou WhatsApp professionnel.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div style="max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap">
+  <span>© 2026 NOVA VOWS International</span>
+  <span>Luxury destination wedding planning · Cameroon & Worldwide</span>
+ </div>
+</footer>
+</body>
+</html>
